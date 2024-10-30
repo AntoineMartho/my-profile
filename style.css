@@ -1,0 +1,102 @@
+/* Style général pour le corps de la page */
+body {
+    font-family: Courier, sans-serif; /* Police par défaut */
+    color: #37AFE1; /* Couleur du texte principal */
+    background-color: #F5F4B3; /* Couleur de fond */
+    line-height: 1.6; /* Hauteur de ligne pour un espacement agréable */
+}
+
+/* Styles pour une image circulaire et plus petite */
+.img-circle {
+    width: 250px; /* Largeur de l'image */
+    height: 250px; /* Hauteur de l'image pour garder un format carré */
+    border-radius: 50%; /* Rend l'image circulaire */
+    object-fit: cover; /* Ajuste l'image pour bien remplir le cercle */
+}
+
+/* Styles pour le h1 */
+h1 {
+    font-family: Times, sans-serif; /* Police spécifique à h1 */
+    color: mediumblue; /* Couleur pour h1 */
+    font-size: 70px; /* Taille du texte de h1 */
+    text-align: center; /* Centrage du titre */
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+/* Styles pour le h2 */
+h2 {
+    font-family: Times, sans-serif; /* Police spécifique à h2 */
+    color: mediumblue; /* Couleur pour h2 */
+    font-size: 25px; /* Taille du texte de h2 */
+    margin-bottom: 15px; /* Espacement sous le sous-titre */
+}
+
+/* Styles pour les paragraphes */
+p {
+    font-size: 16px; /* Taille du texte des paragraphes */
+    color: cornflowerblue; /* Couleur des paragraphes */
+    text-align: justify; /* Justifie le texte */
+    margin-bottom: 15px; /* Espacement sous chaque paragraphe */
+}
+
+/* Styles pour les liens */
+a {
+    color: cornflowerblue; /* Couleur du texte des liens */
+    text-decoration: none; /* Enlève le soulignement par défaut */
+    background-color: #FFFECB; /* Couleur de fond des liens */
+    padding: 4px 6px; /* Espace interne autour du texte des liens */
+    border-radius: 4px; /* Coins arrondis pour les liens */
+    transition: color 0.3s ease, background-color 0.3 ease; /* Transition sur couleur et fond */
+}
+
+/* Effets de survol pour les liens */
+a:hover {
+    color: mediumblue; /* Changement de couleur du texte au survol */
+    text-decoration: underline; /* Soulignement au survol */
+    background-color: orange; /* Changement de fond au survol */
+}
+
+/* Styles pour les listes non ordonnées */
+ul {
+    list-style-type: none; /* Enlève les puces par défaut */
+    padding: 0; /* Retire le padding */ 
+}
+
+ul li {
+    margin-bottom: 10px; /* Espace entre les éléments de la liste */
+}
+
+
+/* Custom design with class */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;         }
+
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 300px;         }
+
+}
+
+
+
+.card-white {
+    background-color: lightblue;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+   margin: 20px 0px;
+   text-align: center; 
+}
+
+
+
+
+
